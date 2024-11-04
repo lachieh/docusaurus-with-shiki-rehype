@@ -38,6 +38,9 @@ jobs:
           cache: yarn
           node-version: 22
 
+      - name: Setup Corepack
+        run: corepack enable
+
       - name: Install Dependencies
         run: yarn install
           
