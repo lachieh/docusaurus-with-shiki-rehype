@@ -1,0 +1,17 @@
+diff --git a/package.json b/package.json
+index 072aac0e6c123935c867570ff8c098f150c22594..e407279cf9d38ecdcb089b502a3ed714077f2458 100644
+--- a/package.json
++++ b/package.json
+@@ -6,12 +6,6 @@
+   "author": {
+     "name": "Microsoft Corporation"
+   },
+-  "exports": {
+-    ".": {
+-      "import": "./dist/index.mjs",
+-      "types": "./dist/index.d.mts"
+-    }
+-  },
+   "main": "./dist/index.mjs",
+   "types": "./dist/index.d.mts",
+   "repository": {
