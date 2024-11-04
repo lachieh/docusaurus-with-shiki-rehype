@@ -36,6 +36,9 @@ jobs:
         uses: actions/setup-node@v4.1.0
         with: 
           cache: yarn
+
+      - name: Install Dependencies
+        run: yarn install
           
       - name: Build
         run: yarn build
