@@ -33,8 +33,8 @@ const config: Config = {
   title: "My Shiki Site",
   tagline: "Shikisaurs are cool",
   favicon: "img/favicon.ico",
-  url: "https://your-docusaurus-site.example.com",
-  baseUrl: "/",
+  url: "https://lachieh.github.io",
+  baseUrl: process.env.GITHUB_PAGES ? "/docusaurus-with-shiki-rehype/" :"/",
   presets: [
     [
       "classic",
