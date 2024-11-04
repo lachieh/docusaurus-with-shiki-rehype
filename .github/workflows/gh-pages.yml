@@ -46,12 +46,11 @@ jobs:
           
       - name: Build
         run: yarn build
-
-      - name: Copy Build
-        run: cp -R ./build/* ./_site
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./build
 
   # Deployment job
   deploy:
