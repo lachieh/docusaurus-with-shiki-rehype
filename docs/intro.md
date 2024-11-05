@@ -153,4 +153,4 @@ export default function MDXPre(props: Props): ReactNode | undefined {
 
 ## Conclusion
 
-This example is already using Shiki. You can refer to the `docusaurus.config.ts` config for a more complete example including shiki transformers and related styles.
+This example is already using Shiki. You can refer to the [`docusaurus.config.ts` config](https://github.com/lachieh/docusaurus-with-shiki-rehype/blob/main/docusaurus.config.ts) in the site source repo for a more complete example including shiki transformers and related styles.
