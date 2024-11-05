@@ -40,6 +40,7 @@ const config: Config = {
       "classic",
       {
         docs: {
+          editUrl: "https://github.com/lachieh/docusaurus-with-shiki-rehype/edit/main/"
           beforeDefaultRehypePlugins: [rehypeShikiPlugin],
         },
         blog: false,
