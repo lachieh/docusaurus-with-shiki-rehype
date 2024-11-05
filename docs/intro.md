@@ -97,7 +97,7 @@ Since `@shiki/rehype` will handle parsing the code from the markdown, we don't n
 Swizzle the component:
 
 ```bash
-yarn docusaurus swizzle @docusaurus/theme-classic MDXComponents/Code --typescript --eject
+npx docusaurus swizzle @docusaurus/theme-classic MDXComponents/Code --typescript --eject
 ```
 
 Edit the file `src/theme/MDXComponents/Code.tsx`
@@ -137,7 +137,7 @@ export default function MDXCode(props): JSX.Element {
 Swizzle the component:
 
 ```bash
-yarn docusaurus swizzle @docusaurus/theme-classic MDXComponents/Pre --typescript --eject
+npx docusaurus swizzle @docusaurus/theme-classic MDXComponents/Pre --typescript --eject
 ```
 
 Edit the file `src/theme/MDXComponents/Pre.tsx`:
