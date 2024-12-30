@@ -7,11 +7,11 @@ This example uses Shiki as the code highlighter instead of Prism.js. Instruction
 ### Install Dependencies
 
 ```
-$ yarn
+$ npm i
 ```
 
 ### Start the local docusaurus server
 
 ```
-$ yarn start
+$ npm start
 ```

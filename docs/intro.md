@@ -12,8 +12,11 @@ This demo covers what is needed to get Shiki running as the code formatter inste
 
 Install the Shiki Rehype plugin:
 
+> ![NOTE]
+> There is a bug with `jiti@v1` that prevents docusaurus from building with anything higher than shiki version `1.22.2`. This is [being tracked in the docusaurus repo](https://github.com/facebook/docusaurus/pull/10716).
+
 ```shell
-npm i @shikijs/rehype shiki
+npm i @shikijs/rehype@~1.22.2 shiki@~1.22.2
 ```
 
 ### Add the plugin to your docusaurus config

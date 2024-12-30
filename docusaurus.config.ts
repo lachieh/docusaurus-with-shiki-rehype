@@ -1,4 +1,4 @@
-import type { Config } from "@docusaurus/types";
+import type { Config, PluginModule } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import type { MDXPlugin } from "@docusaurus/mdx-loader";
 import rehypeShiki, { RehypeShikiOptions } from "@shikijs/rehype";
@@ -59,7 +59,7 @@ const config: Config = {
       },
       items: [
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/lachieh/docusaurus-with-shiki-rehype",
           label: "GitHub",
           position: "right",
         },
