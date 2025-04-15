@@ -1,4 +1,4 @@
-import type { Config, PluginModule } from "@docusaurus/types";
+import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 import type { MDXPlugin } from "@docusaurus/mdx-loader";
 import rehypeShiki, { RehypeShikiOptions } from "@shikijs/rehype";
